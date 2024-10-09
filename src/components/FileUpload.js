@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import './FileUpload.css';
 
 const FileUpload = () => {
   const [files, setFiles] = useState([]);  // Multiple files
@@ -43,16 +44,20 @@ const FileUpload = () => {
   };
 
   return (
-    <div>
-      <h1>Excel to PDF Converter</h1>
-      <input
-        type="file"
-        accept=".xls,.xlsx"
-        onChange={handleFileChange}
-        multiple  // Allow multiple files selection
-      />
-      <button onClick={handleUpload}>Upload and Convert</button>
-      {error && <p style={{ color: 'red' }}>{error}</p>}
+    <div className="container">
+      <h1 className="title">Excel to PDF Converter</h1>
+      <label className="file-label">
+        Choose a File
+        <input
+          type="file"
+          accept=".xls,.xlsx"
+          onChange={handleFileChange}
+          multiple  // Allow multiple files selection
+          className="file-input"
+        />
+      </label>
+      <button onClick={handleUpload} className="button">Upload and Convert</button>
+      {error && <p className="error">{error}</p>}
     </div>
   );
 };

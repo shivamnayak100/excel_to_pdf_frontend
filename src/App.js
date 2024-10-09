@@ -4,7 +4,6 @@ import FileUpload from './components/FileUpload';
 function App() {
   return (
     <div className="App">
-      <h1>Excel to PDF Converter</h1>
       <FileUpload />
     </div>
   );

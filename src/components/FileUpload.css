@@ -1,0 +1,63 @@
+/* FileUpload.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;  /* Content will align to the top */
+    height: 100vh;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding-top: 50px;  /* Add space at the top */
+  }
+  
+  .title {
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the file input wrapper */
+  .file-label {
+    background-color: #f10901;  /* Match button background */
+    color: white;               /* White text */
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  /* Hide the actual file input */
+  .file-input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .button {
+    background-color: #014BF1;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .button:hover {
+    background-color: #0039B3; /* Darker shade for hover */
+  }
+  
+  .error {
+    color: red;
+    margin-top: 20px;
+  }
+  
