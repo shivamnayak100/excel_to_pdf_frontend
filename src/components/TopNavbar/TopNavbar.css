@@ -1,0 +1,40 @@
+.top-navbar {
+    background-color: white; /* Navbar background color */
+    padding: 20px 20px; /* Padding for the navbar */
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Center items vertically */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+  }
+  
+  .navbar-content {
+    display: flex; /* Use flexbox for the content */
+    justify-content: space-between; /* Space between title and links */
+    width: 100%; /* Allow navbar content to take full width */
+    max-width: 1200px; /* Optional: Limit maximum width for a better layout */
+    margin: 0 auto; /* Center the content within the navbar */
+  }
+  
+  .navbar-title {
+    color: #014BF1; /* Title color */
+    font-size: 24px; /* Title font size */
+    font-weight: bold; /* Bold title */
+    margin-left: auto; /* Push the title to the right */
+  }
+  
+  .navbar-links {
+    display: flex; /* Flexbox for the links */
+    justify-content: center; /* Center the links */
+    flex-grow: 1; /* Allow the links to take remaining space */
+  }
+  
+  .navbar-link {
+    color: #014BF1; /* Link color */
+    margin: 0 15px; /* Horizontal space between links */
+    text-decoration: none; /* Remove underline */
+    font-weight: 500; /* Semi-bold text */
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+  }
+  

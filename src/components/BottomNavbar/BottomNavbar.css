@@ -1,0 +1,29 @@
+.bottom-navbar {
+    background-color: white; /* Navbar background color */
+    padding: 20px 0; /* Vertical padding */
+    text-align: center; /* Center text */
+    position: relative; /* Positioning context for absolute elements */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+  }
+  
+  .bottom-navbar-content {
+    margin-bottom: 10px; /* Space between links and copyright text */
+  }
+  
+  .navbar-link {
+    color: #014BF1; /* Text color */
+    margin: 0 15px; /* Horizontal space between links */
+    text-decoration: none; /* Remove underline */
+    font-weight: 500; /* Semi-bold text */
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+  }
+  
+  .footer-copy {
+    margin: 20 0 0 0px;
+    color: black; /* Text color for copyright */
+    font-size: 14px; /* Font size for copyright text */
+  }
+  
