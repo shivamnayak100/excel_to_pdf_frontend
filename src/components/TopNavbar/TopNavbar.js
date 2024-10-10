@@ -7,9 +7,9 @@ const TopNavbar = () => {
       <div className="navbar-content">
         <div className="navbar-title">Easy Techstack</div>
         <div className="navbar-links">
-          <a href="/" className="navbar-link">Home</a>
-          <a href="/blog" className="navbar-link">Blog</a>
-          <a href="/contact" className="navbar-link">Contact</a>
+          {/* <a href="/" className="navbar-link">Home</a> */}
+          {/* <a href="/blog" className="navbar-link">Blog</a> */}
+          {/* <a href="/contact" className="navbar-link">Contact</a> */}
         </div>
       </div>
     </div>

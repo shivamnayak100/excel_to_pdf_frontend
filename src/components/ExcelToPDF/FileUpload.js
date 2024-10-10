@@ -45,34 +45,36 @@ const FileUpload = () => {
 
   return (
     <div className="container">
-      <h1 className="title">Excel to PDF Converter</h1>
-      <label className="file-label">
-        Choose a File
-        <input
-          type="file"
-          accept=".xls,.xlsx"
-          onChange={handleFileChange}
-          multiple  // Allow multiple files selection
-          className="file-input"
-        />
-      </label>
-
-      {/* Display uploaded file names */}
-      {files.length > 0 && (
-        <ul className="file-list">
-          {Array.from(files).map((file, index) => (
-            <li key={index}>{file.name}</li>
-          ))}
-        </ul>
-      )}
-
-      {/* Conditionally render the Upload button only when files are selected */}
-      {files.length > 0 && (
-        <button onClick={handleUpload} className="button">Convert to PDF</button>
-      )}
-      {error && <p className="error">{error}</p>}
+      <div className="box">
+        <h1 className="title">Excel to PDF Converter</h1>
+        <label className="file-label">
+          Choose a File
+          <input
+            type="file"
+            accept=".xls,.xlsx"
+            onChange={handleFileChange}
+            multiple  // Allow multiple files selection
+            className="file-input"
+          />
+        </label>
+  
+        {/* Display uploaded file names */}
+        {files.length > 0 && (
+          <ul className="file-list">
+            {Array.from(files).map((file, index) => (
+              <li key={index}>{file.name}</li>
+            ))}
+          </ul>
+        )}
+  
+        {/* Conditionally render the Upload button only when files are selected */}
+        {files.length > 0 && (
+          <button onClick={handleUpload} className="button">Convert to PDF</button>
+        )}
+        {error && <p className="error">{error}</p>}
+      </div>
     </div>
-  );
+  );  
 };
 
 export default FileUpload;
