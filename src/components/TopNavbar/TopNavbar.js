@@ -5,7 +5,7 @@ const TopNavbar = () => {
   return (
     <div className="top-navbar">
       <div className="navbar-content">
-        <div className="navbar-title">Easy Techstack</div>
+        <div className="navbar-title">PlaywithFile</div>
         <div className="navbar-links">
           {/* <a href="/" className="navbar-link">Home</a> */}
           {/* <a href="/blog" className="navbar-link">Blog</a> */}

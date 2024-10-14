@@ -11,7 +11,7 @@ const BottomNavbar = () => {
         <a href="/about" className="navbar-link">About Us</a> */}
       </div>
       <div className="footer-copy">
-        Copyright © 2024 Easy Techstack | Powered by Easy Techstack
+        Copyright © 2024 PlaywithFile | Powered by Easy Techstack
       </div>
     </div>
   );
