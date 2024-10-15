@@ -24,7 +24,7 @@ const FileUpload = () => {
       formData.append('file', files[i]);
 
       try {
-        const response = await axios.post('http://localhost:3001/convert', formData, {
+        const response = await axios.post('http://localhost:3001/excel-to-pdf', formData, {
           responseType: 'blob',  // Ensure response is treated as binary data
         });
 
