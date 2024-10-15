@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start; /* Align content to the top */
-  height: 100vh;
+  /* height: 100vh; */
   background-color: #f6f8fe;
   text-align: center;
   padding: 50px 20px; /* Add side padding for responsive layout */

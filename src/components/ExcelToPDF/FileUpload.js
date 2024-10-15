@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './FileUpload.css';
+import HowToUseTool from './HowToUseTool';
 
 const FileUpload = () => {
   const [files, setFiles] = useState([]);  // Multiple files
@@ -72,6 +73,9 @@ const FileUpload = () => {
           <button onClick={handleUpload} className="button">Convert to PDF</button>
         )}
         {error && <p className="error">{error}</p>}
+      </div>
+      <div>
+        <HowToUseTool/>
       </div>
     </div>
   );  
