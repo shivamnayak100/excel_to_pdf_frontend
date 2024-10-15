@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import './FileUpload.css';
-import HowToUseTool from './HowToUseTool';
+import './ExcelToPDF.css';
+import HowToUse from './HowToUse';
 
-const FileUpload = () => {
+const ExcelToPDF = () => {
   const [files, setFiles] = useState([]);  // Multiple files
   const [error, setError] = useState(null);
 
@@ -75,10 +75,10 @@ const FileUpload = () => {
         {error && <p className="error">{error}</p>}
       </div>
       <div>
-        <HowToUseTool/>
+        <HowToUse/>
       </div>
     </div>
   );  
 };
 
-export default FileUpload;
+export default ExcelToPDF;

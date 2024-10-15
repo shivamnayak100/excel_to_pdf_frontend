@@ -1,7 +1,7 @@
 import React from 'react';
-import './HowToUseTool.css'; // You can create a CSS file for styles
+import './HowToUse.css'; // You can create a CSS file for styles
 
-const HowToUseTool = () => {
+const HowToUse = () => {
   return (
     <div className="how-to-use-container">
       <h1>How to Use the Excel to PDF Converter Tool</h1>
@@ -73,4 +73,4 @@ const HowToUseTool = () => {
   );
 };
 
-export default HowToUseTool;
+export default HowToUse;
