@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './WordToPDF.css';
+import HowToUse from './HowToUse';
 
 const WordToPDF = () => {
   const [files, setFiles] = useState([]);
@@ -71,6 +72,7 @@ const WordToPDF = () => {
         )}
         {error && <p className="error">{error}</p>}
       </div>
+        <HowToUse/>
     </div>
   );
 };

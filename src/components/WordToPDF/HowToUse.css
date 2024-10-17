@@ -1,0 +1,32 @@
+/* HowToUseTool.css */
+.how-to-use-container {
+    padding: 50px;
+    max-width: 800px;
+    margin: 50px auto;  /* Added some margin for spacing */
+    font-family: Arial, sans-serif;
+    background-color: white;  /* Set box background color to white */
+    border-radius: 30px;  /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Subtle shadow for box effect */
+    text-align: left;  /* Ensure content aligns with the start */
+  }
+  
+  h1, h2 {
+    color: #014BF1;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  p, ul li {
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .call-to-action {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #014BF1;
+    text-align: center;
+  }
