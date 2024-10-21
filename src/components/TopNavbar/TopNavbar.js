@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './TopNavbar.css';
 
 const TopNavbar = () => {
@@ -7,9 +8,8 @@ const TopNavbar = () => {
       <div className="navbar-content">
         <div className="navbar-title">PlaywithFile</div>
         <div className="navbar-links">
-          {/* <a href="/" className="navbar-link">Home</a> */}
-          {/* <a href="/blog" className="navbar-link">Blog</a> */}
-          {/* <a href="/contact" className="navbar-link">Contact</a> */}
+          <Link to="/" className="navbar-link">Word to PDF</Link>
+          <Link to="/excel-to-pdf" className="navbar-link">Excel to PDF</Link>
         </div>
       </div>
     </div>
